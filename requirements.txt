@@ -1,0 +1,18 @@
+
+# Python version
+python==3.10.11
+
+# Libraries
+numpy
+scikit-learn
+torch
+google-colab
+pandas
+statsmodels
+pyspark==3.4.1
+transformers
+matplotlib
+seaborn
+azure-storage-blob
+tabulate
+
