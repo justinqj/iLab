@@ -9,6 +9,7 @@ This repository contains a comprehensive set of tools and datasets designed for 
   - `merge_output.py`: Aggregates the yearly raw output JSON files into a consolidated `raw_output.json` file. This script is essential as Lens.org restricts data extraction to 10,000 entries per call.
 
 - **Analysis Folder**: 
+  - `EDA.ipynb`: Performs Exploratory Data Analysis (EDA) on the patent data, providing useful business insights with graphs plotted.
   - `LDA_and_cluster.ipynb`: Performs Natural Language Processing (NLP) on the patent data to execute topic modeling. This aids in discerning prevalent themes among the patents and clustering them accordingly.
   - `time_series_prediction.ipynb`: Conducts time series analysis on the number of patents over a timeline. It utilizes the ARIMA model to forecast the direction of each patent type one year into the future.
 
